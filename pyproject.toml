@@ -1,0 +1,15 @@
+[project]
+name = "AutoBook"
+version = "0.0.1"
+requires-python = ">=3.9"
+dependencies = ["sphinx>=5,<8"]
+
+[project.optional-dependencies]
+theme_rtd = ["sphinx-rtd-theme"]
+extensions = [
+	"myst-parser",
+	"sphinxcontrib.mermaid",
+	"sphinx-design",
+	"sphinx-toolbox",
+	"sphinx-copybutton",
+]

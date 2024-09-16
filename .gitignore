@@ -1,0 +1,13 @@
+tmp/
+
+# pycharm
+.idea/
+__pycache__/
+*.py[cod]
+
+# pyenv
+.python-version
+
+# Sphinx generated documentation
+docs/_build/
+irene/_build/
