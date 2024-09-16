@@ -8,21 +8,34 @@ Animals
    :animate: fade-in-slide-down
 
    .. list-table::
-      :widths: 20 40
+      :widths: 300
       :header-rows: 1
       :align: center
 
-      * - Items
-        - Description
+      * - Description
 
-      * - .. image:: ../static/images/eng/giraffe.png
-        - giraffe ::
+      * - .. grid:: 2
 
-           A tall African animal with a very long neck, long neck, long legs, and dark marks on its coat
+             .. grid-item-card::
+                :columns: 5
 
-          .. image:: ../static/images/eng/giraffe.gif
-             :align: left
+                .. image:: ../static/images/eng/giraffe.png
 
-          slang ::
+             .. grid-item::
+                :columns: 7
 
-             You're having a giraffe!? => You're joking!
+                giraffe::
+
+                  A tall African animal with a very long neck, long neck, long legs, and
+                  dark marks on its coat
+
+                .. image:: ../static/images/eng/giraffe.gif
+                   :align: left
+
+                slang ::
+
+                 You're having a giraffe!? => You're joking!
+
+
+
+
